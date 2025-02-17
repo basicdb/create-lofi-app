@@ -16,7 +16,7 @@ function App() {
         </button>
         <div className="flex flex-row gap-4 justify-center min-h-[60px] ">
           {emojis?.map((e: { id: string, value: string }) => (
-            <div key={e.id} className={`rounded-md p-4 cursor-pointer hover:cursor-[${deleteCursorIcon}]`} onClick={() => db.collection('emojis').delete(e.id)}>
+            <div key={e.id} className="rounded-md m-2 p-2" style={{ cursor: deleteCursorIcon }} onClick={() => db.collection('emojis').delete(e.id)}>
               {e.value}
             </div>
           ))}
