@@ -40,7 +40,7 @@ const createApp = async (projectName?: string) => {
 
   // Replace the templateDir resolution
   const templateDir = path.join(path.dirname(new URL(import.meta.url).pathname), '..', 'templates', answers.template);
-  
+
   // Add a check to ensure template directory exists
   if (!fs.existsSync(templateDir)) {
     console.error(`Template directory not found: ${templateDir}`);
@@ -70,8 +70,8 @@ const createApp = async (projectName?: string) => {
     await fs.ensureDir(targetDir);
 
     console.log(`\nCreating a new lofi app in ${targetDir}...`);
-    console.log(`Using template from: ${templateDir}`);  
-    
+    console.log(`Using template from: ${templateDir}`);
+
     // Copy template files
     await fs.copy(templateDir, targetDir);
 
@@ -85,10 +85,10 @@ const createApp = async (projectName?: string) => {
     console.log("\nNext steps:");
     console.log(`  cd ${finalProjectName}`);
     console.log(`  npm install`);
-    console.log(`  npm start`);
+    console.log(`  npm run dev`);
   } catch (error) {
     console.error("Error creating project:", error);
-    console.error("Template directory:", templateDir); 
+    console.error("Template directory:", templateDir);
     process.exit(1);
   }
 };
