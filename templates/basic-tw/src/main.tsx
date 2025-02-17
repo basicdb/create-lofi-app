@@ -8,7 +8,7 @@ import { schema } from '../basic.config';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BasicProvider project_id="basic-project-id" schema={schema}>
+    <BasicProvider project_id={schema.project_id} schema={schema}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<App />} />
