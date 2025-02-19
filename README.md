@@ -1,6 +1,16 @@
 # create-lofi-app
 
-A starter kit for building local-first apps
+A starter kit for building local-first apps 
+
+## About
+
+⚠️ still in beta, so expect some rough edges. open to feedback and contributions!
+
+create-lofi-app is an opinionated starter kit for building local-first apps. It's designed to be an easy starting point for learning about local-first development. 
+
+Out of the box, the default template comes with React, Vite, Tailwind, and React Router.
+
+It also includes BasicDB, a database and sync layer for user-owened data. 
 
 ## Features
 
@@ -8,9 +18,8 @@ A starter kit for building local-first apps
 - ⚛️ [React 19](https://react.dev/) with TypeScript 
 - 🛣️ [React Router](https://reactrouter.com/) for client-side routing
 - 💅 [Tailwind CSS](https://tailwindcss.com/) for easy styling
-- 📱 PWA-ready out of the box
-- 💾 [BasicDB](https://docs.basic.tech) for local-first db & sync
-- 🔧 Pre-configured TypeScript and testing setup
+- 📱 [Vite-PWA](https://vite-pwa-org.netlify.app/guide/) - offline ready
+- 💾 [Basic](https://docs.basic.tech) for local-first db & sync
 
 ## Installation
 
