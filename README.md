@@ -9,12 +9,6 @@
 
 ⚠️ **Beta Notice**: This project is in beta stage. While it's stable enough for experimentation and early projects, expect some rough edges. We welcome your feedback and contributions!
 
-[Getting Started](#getting-started) •
-[Features](#features) •
-[Documentation](#documentation) •
-[Why Local-First?](#why-local-first) •
-[Contributing](#contributing)
-
 </div>
 
 ## 🌟 What is create-lofi-app?
@@ -108,8 +102,8 @@ Please feel free to contribute to make create-lofi-app better for everyone!
 
 For detailed documentation and guides, visit:
 - [Basic Documentation](https://docs.basic.tech)
-- [Getting Started Guide](https://docs.basic.tech/getting-started)
-- [API Reference](https://docs.basic.tech/api)
+- [Getting Started Guide](https://docs.basic.tech/get-started/implement-basic/create-lofi-app)
+- [API Reference](https://docs.basic.tech/api-reference/auth/authorize)
 
 ---
 
