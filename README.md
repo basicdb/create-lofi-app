@@ -5,7 +5,6 @@
 🚀 A powerful starter kit for building local-first applications
 
 [![Beta Status](https://img.shields.io/badge/status-beta-yellow.svg)](https://github.com/yourusername/create-lofi-app)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/basicdb/create-lofi-app/pulls)
 
 ⚠️ **Beta Notice**: This project is in beta stage. While it's stable enough for experimentation and early projects, expect some rough edges. We welcome your feedback and contributions!
@@ -111,10 +110,6 @@ For detailed documentation and guides, visit:
 - [Basic Documentation](https://docs.basic.tech)
 - [Getting Started Guide](https://docs.basic.tech/getting-started)
 - [API Reference](https://docs.basic.tech/api)
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
